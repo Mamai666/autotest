@@ -41,5 +41,3 @@ class BasePage:
 
     def assert_input_value(self, selector, expected_value):
         expect(self.page.locator(selector)).to_have_value(expected_value)
-
-
