@@ -21,5 +21,3 @@ class CheckoutPage(BasePage):
         self.wait_for_selector_and_type(self.LAST_NAME_SELECTOR, last_name, 100)
         self.wait_for_selector_and_type(self.POSTAL_CODE_SELECTOR, postal_code, 100)
         self.assert_input_value(self.POSTAL_CODE_SELECTOR, postal_code)
-
-
